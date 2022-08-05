@@ -1,13 +1,18 @@
 
 import React from 'react';
-import PaginaInicial from './pages/PaginaInicial';
+import {BrowserRouter} from 'react-router-dom';
+
+
+import Routes from './Routes';  
 
 function App() {
   return (
-    <div>
-   <PaginaInicial/>
-    </div>
-   
+    <BrowserRouter>
+      <div>
+        
+        <Routes/>
+      </div>
+    </BrowserRouter>
   );
 }
 
