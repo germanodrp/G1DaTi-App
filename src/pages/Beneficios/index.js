@@ -1,13 +1,14 @@
 import React from "react";  
 
 import BarraDeTarefas from "../../components/barraDeTarefas";
+import BeneficiosGestao from "../../components/BeneficiosGestao";
 
 function Beneficios () {
     return ( 
 
         <div>
         < BarraDeTarefas/>  
-        <h1>beneficios</h1>
+        <BeneficiosGestao/>
         </div>
      );
 };

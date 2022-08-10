@@ -25,7 +25,7 @@ body{
     width: 100%;
     background: var(--white);
     transition: all 0.5s;
-    position: fixed;
+     /* position: fixed;  */
 }
 .navigation .logo{
     color: var(--red);
@@ -57,6 +57,55 @@ body{
     cursor: pointer;
     display: none;
 }
+.textoGestao{
+    color: #d63a25;
+     font-size: 3rem;
+     
+ }
+.Beneficios{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+ .BeneficiosGestao{
+    color: #d63a25;
+     font-size: 3rem;
+ }
+ 
+ .TextoBeneficiosGestaoInformativo{
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+   font-size: 1.5rem;
+   font-weight: normal;
+   padding: 20px;
+   text-align: justify;
+ }
+ .textoGestaoInformativo{
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+   font-size: 1.5rem;
+   font-weight: normal;
+   padding: 20px;
+   text-align: justify;
+   
+ }
+
+ .BeneficiosGestaoImg{
+    
+    height: 60%;
+    width: 45%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .GestaoEstrategicaImg{
+    
+    height: 70%;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
 .menu .bar{
     display: block;
     width: 28px;
@@ -77,21 +126,38 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0px 10%;
+    
+    
 }
 .home-text{
     max-width: 37rem;
+    box-shadow: #ccc 0px 0px 9px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
 }
-.home-text .text-h4{
+.homeTextoPaginaInicial{
+    max-width: 37rem;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.homeTextoPaginaInicial .text-h4{
     font-size: 1.5rem;
     color: var(--red);
     margin-bottom: 1rem;
 }
-.home-text .text-h1{
+.homeTextoPaginaInicial .text-h1{
     font-size: 4rem;
     margin-bottom: 1rem;
     line-height: 4rem;
 }
-.home-text p{
+.homeTextoPaginaInicial p{
     margin-bottom: 4rem;
 }
 .home-btn{
@@ -153,9 +219,11 @@ body{
     .home .text-h4{
         font-size: 15px;
     }
+   
     .home .text-h1{
         font-size: 2.5rem;
         line-height: 3rem;
+        
     }
     .home p{
         font-size: 15px;

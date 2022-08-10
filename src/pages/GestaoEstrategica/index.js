@@ -1,14 +1,14 @@
 import React from "react";  
 
 import BarraDeTarefas from "../../components/barraDeTarefas";
-import TextoPaginaInicial from "../../components/textoPaginaInicial";
+import GestaoEstrategicaPg from '../../components/GestaoEstrategica.jsx';
 
 function GestaoEstrategica () {
     return ( 
         <div>
          <BarraDeTarefas/> 
-         
-        <h1>GestaoEstrategicansabuinfnajkabnhabdhab</h1>
+         <GestaoEstrategicaPg/>
+        
         
         </div>
 
