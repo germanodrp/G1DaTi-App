@@ -1,16 +1,15 @@
-import React from "react";  
+import React from "react";
 
 import BarraDeTarefas from "../../components/barraDeTarefas";
 import BeneficiosGestao from "../../components/BeneficiosGestao";
 
-function Beneficios () {
-    return ( 
+function Beneficios() {
+  return (
+    <div>
+      <BarraDeTarefas />
+      <BeneficiosGestao />
+    </div>
+  );
+}
 
-        <div>
-        < BarraDeTarefas/>  
-        <BeneficiosGestao/>
-        </div>
-     );
-};
- 
 export default Beneficios;

@@ -1,16 +1,15 @@
-import React from 'react';
+import React from "react";
 
-import BarraDeTarefas from '../../components/barraDeTarefas';
+import BarraDeTarefas from "../../components/barraDeTarefas";
+import ArtigoPage from "../../components/Artigo.jsx";
 
+function Artigo() {
+  return (
+    <div>
+      <BarraDeTarefas />
+      <ArtigoPage />
+    </div>
+  );
+}
 
-function Artigo () {
-    return ( 
-        <div>
-         <BarraDeTarefas/> 
-        
-        
-        </div>
-     );
-};
- 
 export default Artigo;
