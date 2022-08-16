@@ -9,7 +9,7 @@ const BarraDeTarefas = () => {
                 <li className="nav-item"><Link to="/artigo">Artigo </Link></li>
                 <li className="nav-item"><a href="/gestaoEstrategica">O Que é Gestão Estratégica de Ti</a></li>
                 <li className="nav-item"><a href="/beneficios">Beneficios da Gestão </a></li>
-                <li className="nav-item"><a href="html/contatos.html">Contato</a></li>
+                <li className="nav-item"><a href="/contato">Contato</a></li>
                 <i className='bx bx-search'></i>
             </ul>
             <div className="menu">
