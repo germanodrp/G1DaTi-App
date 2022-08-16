@@ -68,15 +68,15 @@ body {
   color: #d63a25;
   font-size: 3rem;
 }
-.TituloRedeSocial{
+.TituloRedeSocial {
   font-size: 2rem;
 }
-.DescricaoContato{
+.DescricaoContato {
   font-family: Arial;
   font-size: 1.1rem;
 }
-.SubTitulos{
-  font-family:' Verdana';
+.SubTitulos {
+  font-family: " Verdana";
   font-size: 1.5rem;
   color: rgb(83, 78, 78);
 }
@@ -132,7 +132,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-.GmailImg{
+.GmailImg {
   height: 55%;
   width: 40%;
   background-size: cover;
@@ -187,7 +187,7 @@ body {
   padding-bottom: 30px;
   margin-top: 5%;
 }
-.homeContato{
+.homeContato {
   margin-left: 80px;
   margin-top: 10px;
   max-width: 38rem;
