@@ -1,12 +1,15 @@
-import BotaoVoltar from '../../components/BotaoVoltar';
 
+import BarraDeTarefas from '../../components/barraDeTarefas';
+import Botao from '../../components/botaoLoguin';
+import Tela from '../../components/TelaLogin';
 
-function PaginaInicial () {
+function Login () {
     return ( 
         <div>
-            <BotaoVoltar/>
+            <Tela/>
+            <br/>
         </div>
      );
 }
  
-export default PaginaInicial;
+export default Login;
