@@ -6,6 +6,7 @@ import Beneficios from "./pages/Beneficios";
 import GestaoEstrategica from "./pages/GestaoEstrategica";
 import PaginaInicial from "./pages/PaginaInicial";
 import Contato from "./pages/Contato";
+import Loguin from "./pages/Loguin";
 
 function Routes (){
     return(
@@ -16,6 +17,7 @@ function Routes (){
                 <Route path="/gestaoEstrategica" component={GestaoEstrategica}/>
                 <Route path="/beneficios" component={Beneficios}/>
                 <Route path="/contato" component={Contato}/>
+                <Route path="/" component={Loguin}/>
             </Switch>
         
     );

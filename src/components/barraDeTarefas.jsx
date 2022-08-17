@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Botao from './botaoLoguin';
+
 
 const BarraDeTarefas = () => {
     return ( 
@@ -10,6 +12,7 @@ const BarraDeTarefas = () => {
                 <li className="nav-item"><a href="/gestaoEstrategica">O Que é Gestão Estratégica de Ti</a></li>
                 <li className="nav-item"><a href="/beneficios">Beneficios da Gestão </a></li>
                 <li className="nav-item"><a href="/contato">Contato</a></li>
+                <Botao />
                 <i className='bx bx-search'></i>
             </ul>
             <div className="menu">
