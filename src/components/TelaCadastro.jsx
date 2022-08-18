@@ -2,11 +2,11 @@ import React from "react";
 import Botao from "../components/botaoLoguin";
 import { Link } from "react-router-dom";
 
-const Login = () => {
+const Cadastro = () => {
   return (
-    <div className="Login">
-      <div className="divDeLogin">
-        <h1>Login</h1>
+    <div className="Cadastro">
+      <div className="divDeCadastro">
+        <h1>Cadastrar</h1>
         <div>
           <input
             className="loginInputEmail"
@@ -22,18 +22,19 @@ const Login = () => {
             placeholder="digite sua senha"
           />
         </div>
-        <div className="BotaoTelaLogin">
-          <Botao link="/paginaInicial" texto="Entrar" />
+        <div>
+          <input
+            className="loginInputSenhaConfirmacao"
+            type="password"
+            placeholder="Confirme sua senha"
+          />
         </div>
-        <div className="DivDoTextoCadastrar">
-          <span> Não tem conta ?</span>
-          <a href="/cadastro" className="TextoCadastrar">
-            Cadastre-se!
-          </a>
+        <div className="BotaoTelaCadastro">
+          <Botao link="/" texto="Cadastrar" />
         </div>
       </div>
     </div>
   );
 };
 
-export default Login;
+export default Cadastro;

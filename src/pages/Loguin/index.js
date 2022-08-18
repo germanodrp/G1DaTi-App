@@ -1,6 +1,5 @@
 
-import BarraDeTarefas from '../../components/barraDeTarefas';
-import Botao from '../../components/botaoLoguin';
+
 import Tela from '../../components/TelaLogin';
 
 function Login () {
