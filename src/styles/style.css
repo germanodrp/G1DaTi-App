@@ -530,4 +530,53 @@ body {
     text-align: center;
     margin-bottom: 10px;
   }
+
+  @media(max-width:1366px) {
+
+    .divArtigo {
+      width: 80rem;
+      margin-left:20%;
+      margin-right: 20%;
+      border-radius: 15px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 30px;
+      box-shadow: #ccc 0px 0px 9px;
+      text-align: justify;
+      opacity: 80%;
+      background-color: rgb(255, 254, 254);
+      margin-top: 65%;
+  
+    }
+  .home-text{
+    margin-top:  30%;
+  }
+  
+  .BeneficiosGestaoImg{
+    margin-right: -80px;
+  }  
+  
+  
+  
+    .divDeLogin h1{
+      margin: 0px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .divDeLogin{
+      height: 19rem;
+    }
+  
+    .divDeCadastro{
+      height: 20rem;
+    }
+  
+    .divDeCadastro h1{
+      margin: 0px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+}
 }
