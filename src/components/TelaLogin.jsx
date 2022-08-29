@@ -1,6 +1,5 @@
 import React from "react";
 import Botao from "../components/botaoLoguin";
-import { Link } from "react-router-dom";
 
 const Login = () => {
   return (

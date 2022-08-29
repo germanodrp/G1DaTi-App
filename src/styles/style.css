@@ -401,3 +401,133 @@ body {
     width: 125%;
   }
 }
+
+@media(max-width:1024px) {
+  .divArtigo {
+    max-width: 50rem;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    box-shadow: #ccc 0px 0px 9px;
+    text-align: justify;
+    opacity: 80%;
+    background-color: rgb(255, 254, 254);
+    margin-top: 45%;
+
+  }
+
+  .home-text {
+    max-width: 45rem;
+    box-shadow: #ccc 0px 0px 9px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 5%;
+    
+  }
+
+  .GestaoEstrategicaImg {
+    display: none;
+  }
+  .BeneficiosGestaoImg {
+    display: none;
+  }
+  .UniaraxaImg {
+    display: none;
+  }
+  
+  .divDeLogin{
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 22px;
+    height: 40vh;
+    width: 60vh;
+    padding-bottom: 20px;
+  }
+
+  .divDeLogin h1{
+    margin: 0px;
+    text-align: center;
+  }
+
+  .divDeCadastro{
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 22px;
+    height: 42vh;
+    width: 60vh;
+  }
+
+  .divDeCadastro h1{
+    margin: 0px;
+    text-align: center;
+  }
+
+  .navigation .logo {
+    color: var(--red);
+    font-size: 1.3rem;
+    font-weight: 800;
+    padding-right: 10px;
+  }
+
+  a.logo{
+    margin-right: 100px;
+  }
+}
+
+@media(max-width:1440px) {
+
+  .divArtigo {
+    width: 50rem;
+    margin-left:20%;
+    margin-right: 20%;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    box-shadow: #ccc 0px 0px 9px;
+    text-align: justify;
+    opacity: 80%;
+    background-color: rgb(255, 254, 254);
+    margin-top: 35%;
+
+  }
+
+
+  .GestaoEstrategicaImg{
+    margin-right: -80px;
+  } 
+
+  .UniaraxaImg{
+    margin-right: -50px;
+  }
+
+  .divDeLogin h1{
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .divDeLogin{
+    height: 19rem;
+  }
+
+  .divDeCadastro{
+    height: 20rem;
+  }
+
+  .divDeCadastro h1{
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}

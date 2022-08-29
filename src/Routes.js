@@ -1,6 +1,7 @@
 import React from "react";
 import {Route, Switch} from 'react-router-dom';
 
+
 import Artigo from './pages/Artigo';
 import Beneficios from "./pages/Beneficios";
 import GestaoEstrategica from "./pages/GestaoEstrategica";
