@@ -19,6 +19,9 @@ const BarraDeTarefas = () => {
           <a href="/beneficios">Beneficios da Gestão </a>
         </li>
         <li className="nav-item">
+          <a href="/entrevista">Entrevista</a>
+        </li>
+        <li className="nav-item">
           <a href="/contato">Contato</a>
         </li>
         <Botao texto="Login" link="/" />
