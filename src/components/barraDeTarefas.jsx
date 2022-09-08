@@ -27,11 +27,6 @@ const BarraDeTarefas = () => {
         <Botao texto="Login" link="/" />
         <i className="bx bx-search"></i>
       </ul>
-      <div className="menu">
-        <span className="bar"></span>
-        <span className="bar"></span>
-        <span className="bar"></span>
-      </div>
     </nav>
   );
 };
