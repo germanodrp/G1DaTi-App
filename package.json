@@ -1,7 +1,6 @@
 {
   "name": "g1-da-ti",
   "version": "0.1.0",
-  "homepage": "G1DaTi-app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
