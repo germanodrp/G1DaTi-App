@@ -583,11 +583,15 @@ body {
       text-align: justify;
       opacity: 80%;
       background-color: rgb(255, 254, 254);
-      margin-top: 30%;
+      margin-top: 35%;
   
     }
+
+    
+    
+
     .FundoEntrevista{
-      margin-top: 50%;
+      margin-top: 65%;
       max-width: 90rem;
       margin-left: 2%;
       margin-right: 2%;
